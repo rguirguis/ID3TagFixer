@@ -24,6 +24,7 @@ The main issue is that these tags are incoded in non-standard character incoding
 
 ## Solution
 Included a simple script that open all MP3 files in any number of directories and fix them in two steps:
+
 1. Change the ID3 tags to version 2.4 and map all tags if possible (_Done by [Mutagen Library](https://bitbucket.org/lazka/mutagen)_).
 2. Change the character encoding to all tags using `cp1256` decoding table including in standard Python 2.7 `encodings` library.
 
