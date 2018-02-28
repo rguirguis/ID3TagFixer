@@ -6,7 +6,7 @@ Fix wrong MP3 Arabic tag encoding. No more audio files for artist: 'äÌíÈ á�
 * Linux, I didn't test on Windows!
 
 ## Usage
-1. Download and install [Mutagen Library](https://bitbucket.org/lazka/mutagen). Download from _Downloads_ page and installation instructions on project homepage.
+1. Download and install [Mutagen Library](https://github.com/quodlibet/mutagen). Use the _Install_ instructions in [the online documentation](https://mutagen.readthedocs.io/en/latest/index.html#installing).
 2. Download `ID3TagFixer.py` script file
 3. Make sure you have backups for your MP3 files, in case the script had problems with your files. _Better safe than sorry!_
 4. Pass your directories with MP3 files to be fixed, as command line arguments to the script space separated.
